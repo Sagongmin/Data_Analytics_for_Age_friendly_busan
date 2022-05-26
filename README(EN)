@@ -1,1 +1,71 @@
+# Decison Location of Senior Center on Data Analytics for Age-friendly Busan
+Selection of Optimal Location for the Elderly-Friendly City Based on Data
 
+## summary
+The International Health Organization WHO has proposed eight interconnected domains within the [Age-Friendly World] (https://extranet.who.int/agefriendlyworld/age-friendly-cities-framework/) framework). 
+Domains can help identify and refer to boundaries for participation and health in older adults. 
+We seek to improve the transparency and policy quality of policies related to the aging-friendly city of Busan by proposing an open data-based location intelligence framework. 
+The policy direction of Busan, an aging-friendly city, consists of five strategies, 20 tasks, and 110 detailed projects Related Links (http://afc.bswdi.re.kr/Main.do). 
+Our goal is to develop an open source-based analysis framework that can be reused and reproduced by creating an analysis case with open data for policies that will be in progress/implemented.
+
+## about present
+The current framework uses Open Source Geographic Information Services (GIS) tools to support senior center location analysis. 
+1. Data analysis process for location optimization (accessibility (walking time), utilization per senior citizen, change in elderly population)
+2. Borrow real estate theory to establish the optimal location mathematical model for each elderly person.
+
+## about future
+Our goal is not to use a commercial framework, but to enhance and develop an open source-based analysis framework and to develop an analysis case.
+1. Add factors to consider for location analysis
+2. Data are currently aggregated by the intersection of the road network. Applying statistical methods/machine learning/deep learning/graph methodology to aggregate data
+3. Implement various visual maps and charts for location analysis.
+4. Add data on convenience facilities for location analysis (free cafeteria, general hospital, pharmacy)
+
+## feature
+
+## Technical requirements
+- code simplification
+- method of quantified according to real estate, altitude, and travel distance 
+  - ex) Travel time (y) = A travel distance (x) + B (A, B : real estate, altitude)
+- Advancement of population prediction
+- Annotation required
+
+## References
+- Analysis of Welfare Facilities for the Elderly
+- domestic and international papers
+- [Seoul Metropolitan Government Big Data Analysis Case] 
+(https://github.com/pwjdgus/Data_Analytics_for_Age_friendly_busan/blob/main/%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C/%EC%84%9C%EC%9A%B8%EC%8B%9C%20%EB%85%B8%EC%9D%B8%EC%97%AC%EA%B0%80%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4%20%EC%9E%85%EC%A7%80%20%EB%B6%84%EC%84%9D.pdf)
+- [Current status of welfare facilities for the elderly in Busan] 
+(http://www.busansenior.or.kr/04find/01.php)
+- [Korea Red Cross Free Cafeteria Data]
+(https://www.data.go.kr/data/15089276/fileData.do)
+- [Busan Metropolitan City_General Hospital Status] 
+(https://www.data.go.kr/data/15083386/fileData.do)
+- [Busan_Ministry of Public Administration and Security] 
+(https://www.data.go.kr/data/15045036/fileData.do)
+
+- [Public land price, considering the slope] 
+(https://github.com/pwjdgus/Data_Analytics_for_Age_friendly_busan/blob/main/%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C/%EA%B3%B5%EC%8B%9C%EC%A7%80%EA%B0%80%2C%20%EA%B2%BD%EC%82%AC%EB%8F%84%20%EA%B3%A0%EB%A0%A4.pdf))
+- [Traffic accident, considering the elderly population and floating population] 
+(https://github.com/pwjdgus/Data_Analytics_for_Age_friendly_busan/blob/main/%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C/%EA%B5%90%ED%86%B5%EC%82%AC%EA%B3%A0%2C%20%EB%8F%99%EB%B3%84%20%EB%85%B8%EC%9D%B8%EC%9D%B8%EA%B5%AC%2C%20%EC%9C%A0%EB%8F%99%EC%9D%B8%EA%B5%AC%20%EA%B3%A0%EB%A0%A4.pdf))
+- [Research on the Elderly]
+(https://github.com/pwjdgus/Data_Analytics_for_Age_friendly_busan/blob/main/%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C/2020%EB%85%84%EB%8F%84_%EB%85%B8%EC%9D%B8%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC_%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf))
+- [Analyzing the trend of leisure life for the elderly] 
+(https://github.com/pwjdgus/Data_Analytics_for_Age_friendly_busan/blob/main/%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C/%EC%A0%95%EB%B3%B4%ED%99%94%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%85%B8%EC%9D%B8%EC%9D%B8%EA%B5%AC%20%EC%97%AC%EA%B0%80%EC%83%9D%ED%99%9C%20%EB%8F%99%ED%96%A5.pdf)
+- [Free meal service standard data] 
+(https://www.data.go.kr/data/15013107/standard.do)
+- [Busan Metropolitan City_General Hospital Status]
+(https://www.data.go.kr/data/15083386/fileData.do)
+- [Busan_Ministry of Public Administration and Security]
+(https://www.data.go.kr/data/15045036/fileData.do)
+- [Kakao Map] (https://map.kakao.com/))
+  - ex) Search method: (Region name) (Welfare for the Elderly) or (Region name) (Route Hall)
+- [Information on Health and Welfare Projects for the Elderly in 2022]
+(http://www.mohw.go.kr/react/jb/sjb030301vw.jsp)
+## Related Terms
+
+Location Intelligence (https://www.esri.com/en-us/location-intelligence)(LI): The process of discovering new insights by combining geospatial data with business data.
+senior centers/welfare facilities
+
+
+# Kaggle 
+[Kaggle notebook](https://www.kaggle.com/code/jhparkland/data-analytics-for-age-friendly-busan/notebook)
